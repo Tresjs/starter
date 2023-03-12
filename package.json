@@ -21,9 +21,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@tresjs/cientos": "^1.7.0",
-    "@tresjs/core": "^1.7.0",
-    "three": "^0.150.0",
+    "@tresjs/cientos": "^1.8.0",
+    "@tresjs/core": "^1.8.1",
+    "three": "^0.150.1",
     "vue": "^3.2.45"
   },
   "devDependencies": {
