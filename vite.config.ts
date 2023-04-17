@@ -4,5 +4,14 @@ import glsl from 'vite-plugin-glsl'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue(), glsl()],
+  plugins: [
+    vue({
+      template: {
+        compilerOptions: {
+          isCustomElement: tag => (tag.startsWith('Tres') && tag !== 'TresCanvas') || tag === 'primitive',
+        },
+      },
+    }),
+    glsl(),
+  ],
 })
