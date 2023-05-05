@@ -13,8 +13,9 @@ const { scene: model } = await useGLTF(
 
 const akuAkuRef = ref(null)
 
-watch(akuAkuRef, value => {
-  console.log('akuAkuRef', value)
+watch(akuAkuRef, model => {
+  console.log('akuAkuRef', model)
+  model.position.set(0, 8, 0)
 })
 </script>
 

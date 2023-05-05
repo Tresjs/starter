@@ -1,8 +1,7 @@
 <script setup lang="ts">
-import { TresCanvas } from '@tresjs/core'
-import { reactive } from 'vue'
-import { BasicShadowMap, sRGBEncoding, NoToneMapping } from 'three'
-import TheModel from './TheModel.vue'
+import { TresCanvas, useRenderLoop } from '@tresjs/core'
+import { reactive, shallowRef } from 'vue'
+import { BasicShadowMap, SRGBColorSpace, NoToneMapping } from 'three'
 import { OrbitControls } from '@tresjs/cientos'
 
 const state = reactive({
@@ -10,19 +9,31 @@ const state = reactive({
   shadows: true,
   alpha: false,
   shadowMapType: BasicShadowMap,
-  outputEncoding: sRGBEncoding,
+  outputColorSpace: SRGBColorSpace,
   toneMapping: NoToneMapping,
+})
+
+const { onLoop } = useRenderLoop()
+
+const boxRef = shallowRef(null)
+
+onLoop(({ elapsed}) => {
+  if(boxRef) {
+    boxRef.value.rotation.y = elapsed
+    boxRef.value.rotation.z = elapsed
+  }
 })
 </script>
 
 <template>
   <TresCanvas v-bind="state">
-    <TresPerspectiveCamera :position="[7, 7, 7]" :look-at="[0, 0, 0]" />
+    <TresPerspectiveCamera :position="[5,5,5]" />
     <OrbitControls />
     <TresAmbientLight :intensity="0.5" :color="'red'" />
-    <Suspense>
-      <TheModel />
-    </Suspense>
+    <TresMesh ref="boxRef" :position="[0,2,0]">
+      <TresBoxGeometry :args="[1,1,1]" />
+      <TresMeshNormalMaterial />
+    </TresMesh>
     <TresDirectionalLight :position="[0, 2, 4]" :intensity="1" cast-shadow />
     <TresAxesHelper />
     <TresGridHelper :args="[10, 10, 0x444444, 'teal']" />
