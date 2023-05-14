@@ -10,7 +10,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "esModuleInterop": true,
-    "types": ["vite/client", "node"],
+    "types": ["vite/client"],
     "lib": ["ESNext", "DOM"],
     "skipLibCheck": true,
     "noEmit": true
