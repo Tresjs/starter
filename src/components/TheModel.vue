@@ -15,7 +15,7 @@ const akuAkuRef = ref(null)
 
 watch(akuAkuRef, model => {
   console.log('akuAkuRef', model)
-  model.position.set(0, 8, 0)
+
 })
 </script>
 
