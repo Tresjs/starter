@@ -18,6 +18,7 @@
 
 - [Tres.js](https://tresjs.org) and latest [Three.js](https://threejs.org)
 - `@tresjs/cientos` package pre-installed 📦
+- `@tresjs/leches` GUI controls for debuging 🍰
 - Shader support (glsl) with [`vite-plugin-glsl`](https://github.com/UstymUkhman/vite-plugin-glsl) 🎨
 
 ## Usage
