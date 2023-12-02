@@ -3,6 +3,7 @@ import { TresCanvas, useRenderLoop } from '@tresjs/core'
 import { reactive, shallowRef } from 'vue'
 import { BasicShadowMap, SRGBColorSpace, NoToneMapping } from 'three'
 import { OrbitControls } from '@tresjs/cientos'
+import { TresLeches, useControls } from '@tresjs/leches'
 import TheModel from './TheModel.vue'
 
 const state = reactive({
@@ -13,6 +14,8 @@ const state = reactive({
   outputColorSpace: SRGBColorSpace,
   toneMapping: NoToneMapping,
 })
+
+useControls('fpsgraph')
 
 const { onLoop } = useRenderLoop()
 
@@ -27,6 +30,7 @@ onLoop(({ elapsed }) => {
 </script>
 
 <template>
+  <TresLeches />
   <TresCanvas v-bind="state">
     <TresPerspectiveCamera :position="[5, 5, 5]" />
     <OrbitControls />
