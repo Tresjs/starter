@@ -30,7 +30,7 @@
   "devDependencies": {
     "@tresjs/eslint-config-vue": "^0.2.1",
     "@types/three": "^0.159.0",
-    "@vitejs/plugin-vue": "^4.5.1",
+    "@vitejs/plugin-vue": "^5.0.0",
     "typescript": "^5.3.2",
     "vite": "^5.0.4",
     "vite-plugin-glsl": "^1.2.0",
