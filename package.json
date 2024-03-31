@@ -24,12 +24,12 @@
     "@tresjs/cientos": "^3.6.0",
     "@tresjs/core": "^3.5.1",
     "@tresjs/leches": "^0.14.0",
-    "three": "^0.159.0",
+    "three": "^0.163.0",
     "vue": "^3.3.9"
   },
   "devDependencies": {
     "@tresjs/eslint-config-vue": "^0.2.1",
-    "@types/three": "^0.159.0",
+    "@types/three": "^0.163.0",
     "@vitejs/plugin-vue": "^4.5.1",
     "typescript": "^5.3.2",
     "vite": "^5.0.4",
