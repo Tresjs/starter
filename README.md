@@ -8,9 +8,7 @@
   <a href="https://discord.gg/UCr96AQmWn"><img src="https://img.shields.io/badge/chat-discord-purple?style=flat&logo=discord" alt="discord chat"></a>
 </p>
 
-
 # TresJS 🚀 Starter
-
 
 > Quick start repo for [Tres.js](https://tresjs.org) projects
 
