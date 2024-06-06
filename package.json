@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@tresjs/cientos": "^3.9.0",
-    "@tresjs/core": "4.0.0",
+    "@tresjs/core": "4.0.2",
     "@tresjs/leches": "^0.14.0",
     "three": "^0.164.1",
     "vue": "^3.4.27"
