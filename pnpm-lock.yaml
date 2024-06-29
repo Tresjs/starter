@@ -7,10 +7,10 @@ settings:
 dependencies:
   '@tresjs/cientos':
     specifier: ^3.9.0
-    version: 3.9.0(@tresjs/core@4.0.0)(three@0.164.1)(tweakpane@4.0.3)(vue@3.4.27)
+    version: 3.9.0(@tresjs/core@4.0.2)(three@0.164.1)(tweakpane@4.0.3)(vue@3.4.27)
   '@tresjs/core':
-    specifier: 4.0.0
-    version: 4.0.0(three@0.164.1)(vue@3.4.27)
+    specifier: 4.0.2
+    version: 4.0.2(three@0.164.1)(vue@3.4.27)
   '@tresjs/leches':
     specifier: ^0.14.0
     version: 0.14.0(vite@5.2.12)(vue@3.4.27)
@@ -722,7 +722,7 @@ packages:
       - typescript
     dev: true
 
-  /@tresjs/cientos@3.9.0(@tresjs/core@4.0.0)(three@0.164.1)(tweakpane@4.0.3)(vue@3.4.27):
+  /@tresjs/cientos@3.9.0(@tresjs/core@4.0.2)(three@0.164.1)(tweakpane@4.0.3)(vue@3.4.27):
     resolution: {integrity: sha512-LAtMveKlecKvWh7TNWdwEs3nQUYMLqz9DZy0YhSZ6OVTfL2vevx2K4sH9744UME8OedUf4fkFFkX4OWQRHaDRQ==}
     peerDependencies:
       '@tresjs/core': '>=3.2'
@@ -730,7 +730,7 @@ packages:
       tweakpane: '>=3.0.0'
       vue: '>=3.3'
     dependencies:
-      '@tresjs/core': 4.0.0(three@0.164.1)(vue@3.4.27)
+      '@tresjs/core': 4.0.2(three@0.164.1)(vue@3.4.27)
       '@vueuse/core': 10.10.0(vue@3.4.27)
       camera-controls: 2.8.4(three@0.164.1)
       stats-gl: 2.2.8
@@ -746,14 +746,14 @@ packages:
       - react
     dev: false
 
-  /@tresjs/core@4.0.0(three@0.164.1)(vue@3.4.27):
-    resolution: {integrity: sha512-OljSaKSFalFqxkGMRdSp33Wzz/1TEoF+ssG3oqLSfmQ7x17ZmdP/w8WYPn9r+XXdpwFReWSN60oogoRCROq8zw==}
+  /@tresjs/core@4.0.2(three@0.164.1)(vue@3.4.27):
+    resolution: {integrity: sha512-+Shy5ch4m9gQSHRlArZAn4nv2apaFJJv21bAvpOKRXTCtGu0BakKGUpWcTzzmDsTs9t6yndbjCWzyifggjFpQQ==}
     peerDependencies:
       three: '>=0.133'
       vue: '>=3.4'
     dependencies:
       '@alvarosabu/utils': 3.2.0
-      '@vue/devtools-api': 6.6.1
+      '@vue/devtools-api': 6.6.3
       '@vueuse/core': 10.10.0(vue@3.4.27)
       three: 0.164.1
       vue: 3.4.27(typescript@5.4.5)
@@ -1067,8 +1067,8 @@ packages:
       '@vue/compiler-dom': 3.4.27
       '@vue/shared': 3.4.27
 
-  /@vue/devtools-api@6.6.1:
-    resolution: {integrity: sha512-LgPscpE3Vs0x96PzSSB4IGVSZXZBZHpfxs+ZA1d+VEPwHdOXowy/Y2CsvCAIFrf+ssVU1pD1jidj505EpUnfbA==}
+  /@vue/devtools-api@6.6.3:
+    resolution: {integrity: sha512-0MiMsFma/HqA6g3KLKn+AGpL1kgKhFWszC9U29NfpWK5LE7bjeXxySWJrOJ77hBz+TBrBQ7o4QJqbPbqbs8rJw==}
     dev: false
 
   /@vue/language-core@2.0.19(typescript@5.4.5):
