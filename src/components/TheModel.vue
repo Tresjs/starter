@@ -1,8 +1,6 @@
 <script setup lang="ts">
-import { useGLTF, useTweakPane } from '@tresjs/cientos'
+import { useGLTF } from '@tresjs/cientos'
 import { ref, watch } from 'vue'
-
-useTweakPane()
 
 const { scene: model } = await useGLTF(
   'https://raw.githubusercontent.com/Tresjs/assets/main/models/gltf/aku-aku/AkuAku.gltf',
