@@ -6,13 +6,7 @@
   "packageRules": [
     {
       "updateTypes": ["minor", "patch"],
-      "automerge": true,
-      "automergeType": "pr",
-      "requiredStatusChecks": null,
-      "branchProtectionRules": {
-        "enabled": true,
-        "requiredApprovingReviewCount": 0
-      }
+      "automerge": true
     }
   ]
 }
