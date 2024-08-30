@@ -32,7 +32,7 @@ importers:
         version: 0.167.0
       '@vitejs/plugin-vue':
         specifier: ^5.0.5
-        version: 5.1.0(vite@5.3.5)(vue@3.4.34(typescript@5.5.4))
+        version: 5.1.3(vite@5.3.5)(vue@3.4.34(typescript@5.5.4))
       eslint:
         specifier: ^9.7.0
         version: 9.7.0
@@ -648,8 +648,8 @@ packages:
   '@unocss/core@0.57.7':
     resolution: {integrity: sha512-1d36M0CV3yC80J0pqOa5rH1BX6g2iZdtKmIb3oSBN4AWnMCSrrJEPBrUikyMq2TEQTrYWJIVDzv5A9hBUat3TA==}
 
-  '@vitejs/plugin-vue@5.1.0':
-    resolution: {integrity: sha512-QMRxARyrdiwi1mj3AW4fLByoHTavreXq0itdEW696EihXglf1MB3D4C2gBvE0jMPH29ZjC3iK8aIaUMLf4EOGA==}
+  '@vitejs/plugin-vue@5.1.3':
+    resolution: {integrity: sha512-3xbWsKEKXYlmX82aOHufFQVnkbMC/v8fLpWwh6hWOUrK5fbbtBh9Q/WWse27BFgSy2/e2c0fz5Scgya9h2GLhw==}
     engines: {node: ^18.0.0 || >=20.0.0}
     peerDependencies:
       vite: ^5.0.0
@@ -2580,7 +2580,7 @@ snapshots:
 
   '@unocss/core@0.57.7': {}
 
-  '@vitejs/plugin-vue@5.1.0(vite@5.3.5)(vue@3.4.34(typescript@5.5.4))':
+  '@vitejs/plugin-vue@5.1.3(vite@5.3.5)(vue@3.4.34(typescript@5.5.4))':
     dependencies:
       vite: 5.3.5
       vue: 3.4.34(typescript@5.5.4)
