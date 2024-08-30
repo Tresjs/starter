@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@tresjs/cientos':
-        specifier: 4.0.0
-        version: 4.0.0(@tresjs/core@4.2.7(three@0.168.0)(vue@3.4.38(typescript@5.5.4)))(three@0.168.0)(vue@3.4.38(typescript@5.5.4))
+        specifier: 4.0.2
+        version: 4.0.2(@tresjs/core@4.2.7(three@0.168.0)(vue@3.4.38(typescript@5.5.4)))(three@0.168.0)(vue@3.4.38(typescript@5.5.4))
       '@tresjs/core':
         specifier: 4.2.7
         version: 4.2.7(three@0.168.0)(vue@3.4.38(typescript@5.5.4))
@@ -452,8 +452,8 @@ packages:
     peerDependencies:
       eslint: '>=8.40.0'
 
-  '@tresjs/cientos@4.0.0':
-    resolution: {integrity: sha512-yT8WxPOiFlH/fkDDfUtmIE4Ci3JkBUaElGCo4/CFD6lqyM8qY1NAJSgIj4riXiaym2T1mpjCnfSIpACo4Zx7ig==}
+  '@tresjs/cientos@4.0.2':
+    resolution: {integrity: sha512-72Y+tHdysx+ZGv81c1kZixnLfc5bgMKKc2kacW6AQ2XSaRfDQ87ZRhQp78kHYgPNgx6SUd9mXGaub15brMGNFQ==}
     peerDependencies:
       '@tresjs/core': '>=4.2.1'
       three: '>=0.133'
@@ -2215,7 +2215,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@tresjs/cientos@4.0.0(@tresjs/core@4.2.7(three@0.168.0)(vue@3.4.38(typescript@5.5.4)))(three@0.168.0)(vue@3.4.38(typescript@5.5.4))':
+  '@tresjs/cientos@4.0.2(@tresjs/core@4.2.7(three@0.168.0)(vue@3.4.38(typescript@5.5.4)))(three@0.168.0)(vue@3.4.38(typescript@5.5.4))':
     dependencies:
       '@tresjs/core': 4.2.7(three@0.168.0)(vue@3.4.38(typescript@5.5.4))
       '@vueuse/core': 11.0.3(vue@3.4.38(typescript@5.5.4))
