@@ -5,9 +5,14 @@
   ],
   "packageRules": [
     {
-      "matchUpdateTypes": ["minor", "patch"],
-      "matchCurrentVersion": "!/^0/",
-      "automerge": true
+      "updateTypes": ["minor", "patch"],
+      "automerge": true,
+      "automergeType": "pr",
+      "requiredStatusChecks": null,
+      "branchProtectionRules": {
+        "enabled": true,
+        "requiredApprovingReviewCount": 0
+      }
     }
   ]
 }
