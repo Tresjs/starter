@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "@tresjs/eslint-config": "^1.1.0",
-    "@types/three": "^0.167.0",
+    "@types/three": "^0.168.0",
     "@vitejs/plugin-vue": "^5.0.5",
     "eslint": "^9.7.0",
     "typescript": "^5.5.3",
