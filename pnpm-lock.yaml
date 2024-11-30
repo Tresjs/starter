@@ -10,16 +10,16 @@ importers:
     dependencies:
       '@tresjs/cientos':
         specifier: 4.0.3
-        version: 4.0.3(@tresjs/core@4.3.1(three@0.170.0)(vue@3.5.13(typescript@5.7.2)))(three@0.170.0)(vue@3.5.13(typescript@5.7.2))
+        version: 4.0.3(@tresjs/core@4.3.1(three@0.171.0)(vue@3.5.13(typescript@5.7.2)))(three@0.171.0)(vue@3.5.13(typescript@5.7.2))
       '@tresjs/core':
         specifier: 4.3.1
-        version: 4.3.1(three@0.170.0)(vue@3.5.13(typescript@5.7.2))
+        version: 4.3.1(three@0.171.0)(vue@3.5.13(typescript@5.7.2))
       '@tresjs/leches':
         specifier: ^0.14.0
         version: 0.14.0(vite@5.4.11)(vue@3.5.13(typescript@5.7.2))
       three:
-        specifier: ^0.170.0
-        version: 0.170.0
+        specifier: ^0.171.0
+        version: 0.171.0
       vue:
         specifier: ^3.4.32
         version: 3.5.13(typescript@5.7.2)
@@ -1832,8 +1832,8 @@ packages:
     peerDependencies:
       three: '>=0.128.0'
 
-  three@0.170.0:
-    resolution: {integrity: sha512-FQK+LEpYc0fBD+J8g6oSEyyNzjp+Q7Ks1C568WWaoMRLW+TkNNWmenWeGgJjV105Gd+p/2ql1ZcjYvNiPZBhuQ==}
+  three@0.171.0:
+    resolution: {integrity: sha512-Y/lAXPaKZPcEdkKjh0JOAHVv8OOnv/NDJqm0wjfCzyQmfKxV7zvkwsnBgPBKTzJHToSOhRGQAGbPJObT59B/PQ==}
 
   through2@0.6.5:
     resolution: {integrity: sha512-RkK/CCESdTKQZHdmKICijdKKsCRVHs5KsLZ6pACAmF/1GPUQhonHSXWNERctxEp7RmvjdNbZTL5z9V7nSCXKcg==}
@@ -2369,28 +2369,28 @@ snapshots:
       - supports-color
       - typescript
 
-  '@tresjs/cientos@4.0.3(@tresjs/core@4.3.1(three@0.170.0)(vue@3.5.13(typescript@5.7.2)))(three@0.170.0)(vue@3.5.13(typescript@5.7.2))':
+  '@tresjs/cientos@4.0.3(@tresjs/core@4.3.1(three@0.171.0)(vue@3.5.13(typescript@5.7.2)))(three@0.171.0)(vue@3.5.13(typescript@5.7.2))':
     dependencies:
-      '@tresjs/core': 4.3.1(three@0.170.0)(vue@3.5.13(typescript@5.7.2))
+      '@tresjs/core': 4.3.1(three@0.171.0)(vue@3.5.13(typescript@5.7.2))
       '@vueuse/core': 11.1.0(vue@3.5.13(typescript@5.7.2))
-      camera-controls: 2.9.0(three@0.170.0)
+      camera-controls: 2.9.0(three@0.171.0)
       stats-gl: 2.2.8
       stats.js: 0.17.0
-      three: 0.170.0
-      three-custom-shader-material: 5.4.0(three@0.170.0)
-      three-stdlib: 2.32.2(three@0.170.0)
+      three: 0.171.0
+      three-custom-shader-material: 5.4.0(three@0.171.0)
+      three-stdlib: 2.32.2(three@0.171.0)
       vue: 3.5.13(typescript@5.7.2)
     transitivePeerDependencies:
       - '@react-three/fiber'
       - '@vue/composition-api'
       - react
 
-  '@tresjs/core@4.3.1(three@0.170.0)(vue@3.5.13(typescript@5.7.2))':
+  '@tresjs/core@4.3.1(three@0.171.0)(vue@3.5.13(typescript@5.7.2))':
     dependencies:
       '@alvarosabu/utils': 3.2.0
       '@vue/devtools-api': 6.6.3
       '@vueuse/core': 11.1.0(vue@3.5.13(typescript@5.7.2))
-      three: 0.170.0
+      three: 0.171.0
       vue: 3.5.13(typescript@5.7.2)
     transitivePeerDependencies:
       - '@vue/composition-api'
@@ -2779,9 +2779,9 @@ snapshots:
 
   callsites@3.1.0: {}
 
-  camera-controls@2.9.0(three@0.170.0):
+  camera-controls@2.9.0(three@0.171.0):
     dependencies:
-      three: 0.170.0
+      three: 0.171.0
 
   caniuse-lite@1.0.30001664: {}
 
@@ -4023,15 +4023,15 @@ snapshots:
 
   tapable@2.2.1: {}
 
-  three-custom-shader-material@5.4.0(three@0.170.0):
+  three-custom-shader-material@5.4.0(three@0.171.0):
     dependencies:
       glsl-token-functions: 1.0.1
       glsl-token-string: 1.0.1
       glsl-tokenizer: 2.1.5
       object-hash: 3.0.0
-      three: 0.170.0
+      three: 0.171.0
 
-  three-stdlib@2.32.2(three@0.170.0):
+  three-stdlib@2.32.2(three@0.171.0):
     dependencies:
       '@types/draco3d': 1.4.10
       '@types/offscreencanvas': 2019.7.3
@@ -4039,9 +4039,9 @@ snapshots:
       draco3d: 1.5.7
       fflate: 0.6.10
       potpack: 1.0.2
-      three: 0.170.0
+      three: 0.171.0
 
-  three@0.170.0: {}
+  three@0.171.0: {}
 
   through2@0.6.5:
     dependencies:
