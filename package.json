@@ -1,7 +1,7 @@
 {
   "name": "@tresjs/starter",
   "type": "module",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Quick starter template for TresJS",
   "author": "Alvaro Saburido <hola@alvarosaburido.dev> (https://github.com/alvarosabu/)",
   "license": "MIT",
@@ -27,16 +27,17 @@
     "@tresjs/core": "4.3.1",
     "@tresjs/leches": "^0.14.0",
     "three": "^0.171.0",
-    "vue": "^3.4.32"
+    "three-stdlib": "^2.35.2",
+    "vue": "^3.5.13"
   },
   "devDependencies": {
     "@tresjs/eslint-config": "^1.1.0",
     "@types/three": "^0.171.0",
-    "@vitejs/plugin-vue": "^5.0.5",
-    "eslint": "^9.7.0",
-    "typescript": "^5.5.3",
-    "vite": "^5.3.4",
-    "vite-plugin-glsl": "^1.3.0",
-    "vue-tsc": "^2.0.26"
+    "@vitejs/plugin-vue": "^5.2.1",
+    "eslint": "^9.17.0",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5",
+    "vite-plugin-glsl": "^1.3.1",
+    "vue-tsc": "^2.1.10"
   }
 }

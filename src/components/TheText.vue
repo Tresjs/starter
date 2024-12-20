@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { extend, useTexture } from '@tresjs/core'
-import { TextGeometry } from 'three/addons/geometries/TextGeometry'
-import { FontLoader } from 'three/addons/loaders/FontLoader'
+
+import { FontLoader, TextGeometry } from 'three-stdlib'
 
 extend({ TextGeometry })
 
@@ -11,7 +11,7 @@ const loader = new FontLoader()
 
 const font = await new Promise((resolve, reject) => {
   try {
-    loader.load(fontPath, (font) => {
+    loader.load(fontPath, (font: unknown) => {
       resolve(font)
     })
   }

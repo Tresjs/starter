@@ -11,4 +11,16 @@ export default defineConfig({
     }),
     glsl(),
   ],
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          three: ['three'],
+        },
+      },
+    },
+  },
+  optimizeDeps: {
+    exclude: ['vue', 'three'],
+  },
 })
