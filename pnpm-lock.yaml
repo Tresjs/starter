@@ -22,7 +22,7 @@ importers:
         version: 0.172.0
       three-stdlib:
         specifier: ^2.35.2
-        version: 2.35.2(three@0.172.0)
+        version: 2.35.3(three@0.172.0)
       vue:
         specifier: ^3.5.13
         version: 3.5.13(typescript@5.7.2)
@@ -1188,6 +1188,10 @@ packages:
     resolution: {integrity: sha512-oX2ruAFQwf/Orj8m737Y5adxDQO0LAB7/S5MnxCdTNDd4p6BsyIVsv9JQsATbTSq8KHRpLwIHbVlUNatxd+1Ow==}
     engines: {node: '>=8.6.0'}
 
+  fast-glob@3.3.3:
+    resolution: {integrity: sha512-7MptL8U0cqcFdzIzwOTHoilX9x5BrNqye7Z/LuC7kCMRio1EMSyqRK3BEAUD7sXRq4iT4AzTVuZdhgQ2TCvYLg==}
+    engines: {node: '>=8.6.0'}
+
   fast-json-stable-stringify@2.1.0:
     resolution: {integrity: sha512-lhd/wF+Lk98HZoTCtlVraHtfh5XYijIjalXck7saUtuanSDyLMxnHhSXEDJqHxD7msR8D0uCmqlkwjCV8xvwHw==}
 
@@ -1872,8 +1876,8 @@ packages:
       react:
         optional: true
 
-  three-stdlib@2.35.2:
-    resolution: {integrity: sha512-Ns9ZdiFEAsiv8JvHS28Qgxg4YRTq13Ixa4EDUQZhUovZ3j/GLTou4zE887SLSqsuRZwuy3gklttn2ha5JaJpTQ==}
+  three-stdlib@2.35.3:
+    resolution: {integrity: sha512-MS4IJHqz7yEwxC0Atq3eMfqTcdAMlkA6KWNs04fzVJRVp5AELZVFiWbNVtb0Q1lXDFROb75pw+xr+z+UoWxT9Q==}
     peerDependencies:
       three: '>=0.128.0'
 
@@ -2454,7 +2458,7 @@ snapshots:
       stats.js: 0.17.0
       three: 0.172.0
       three-custom-shader-material: 5.4.0(three@0.172.0)
-      three-stdlib: 2.35.2(three@0.172.0)
+      three-stdlib: 2.35.3(three@0.172.0)
       vue: 3.5.13(typescript@5.7.2)
     transitivePeerDependencies:
       - '@react-three/fiber'
@@ -2617,7 +2621,7 @@ snapshots:
       '@typescript-eslint/types': 8.18.1
       '@typescript-eslint/visitor-keys': 8.18.1
       debug: 4.4.0
-      fast-glob: 3.3.2
+      fast-glob: 3.3.3
       is-glob: 4.0.3
       minimatch: 9.0.5
       semver: 7.6.3
@@ -3348,6 +3352,15 @@ snapshots:
       glob-parent: 5.1.2
       merge2: 1.4.1
       micromatch: 4.0.8
+
+  fast-glob@3.3.3:
+    dependencies:
+      '@nodelib/fs.stat': 2.0.5
+      '@nodelib/fs.walk': 1.2.8
+      glob-parent: 5.1.2
+      merge2: 1.4.1
+      micromatch: 4.0.8
+    optional: true
 
   fast-json-stable-stringify@2.1.0: {}
 
@@ -4154,7 +4167,7 @@ snapshots:
       object-hash: 3.0.0
       three: 0.172.0
 
-  three-stdlib@2.35.2(three@0.172.0):
+  three-stdlib@2.35.3(three@0.172.0):
     dependencies:
       '@types/draco3d': 1.4.10
       '@types/offscreencanvas': 2019.7.3
