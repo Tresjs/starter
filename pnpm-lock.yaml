@@ -22,7 +22,7 @@ importers:
         version: 0.172.0
       three-stdlib:
         specifier: ^2.35.2
-        version: 2.35.3(three@0.172.0)
+        version: 2.35.6(three@0.172.0)
       vue:
         specifier: ^3.5.13
         version: 3.5.13(typescript@5.7.3)
@@ -1876,8 +1876,8 @@ packages:
       react:
         optional: true
 
-  three-stdlib@2.35.3:
-    resolution: {integrity: sha512-MS4IJHqz7yEwxC0Atq3eMfqTcdAMlkA6KWNs04fzVJRVp5AELZVFiWbNVtb0Q1lXDFROb75pw+xr+z+UoWxT9Q==}
+  three-stdlib@2.35.6:
+    resolution: {integrity: sha512-8kkXc/7Fvsm3o/J7UqUgWZZ+qDYS0RTN8cwwGD0A4n0lP6wXf5FDdhJyTS8y/o+UMIexiv0ld78RPQoK6PFlVA==}
     peerDependencies:
       three: '>=0.128.0'
 
@@ -2458,7 +2458,7 @@ snapshots:
       stats.js: 0.17.0
       three: 0.172.0
       three-custom-shader-material: 5.4.0(three@0.172.0)
-      three-stdlib: 2.35.3(three@0.172.0)
+      three-stdlib: 2.35.6(three@0.172.0)
       vue: 3.5.13(typescript@5.7.3)
     transitivePeerDependencies:
       - '@react-three/fiber'
@@ -4167,7 +4167,7 @@ snapshots:
       object-hash: 3.0.0
       three: 0.172.0
 
-  three-stdlib@2.35.3(three@0.172.0):
+  three-stdlib@2.35.6(three@0.172.0):
     dependencies:
       '@types/draco3d': 1.4.10
       '@types/offscreencanvas': 2019.7.3
