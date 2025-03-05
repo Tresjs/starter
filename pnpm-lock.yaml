@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@tresjs/cientos':
-        specifier: 4.1.0
-        version: 4.1.0(@tresjs/core@4.3.3(three@0.174.0)(typescript@5.8.2)(vue@3.5.13(typescript@5.8.2)))(three@0.174.0)(typescript@5.8.2)(vue@3.5.13(typescript@5.8.2))
+        specifier: 4.1.1
+        version: 4.1.1(@tresjs/core@4.3.3(three@0.174.0)(typescript@5.8.2)(vue@3.5.13(typescript@5.8.2)))(three@0.174.0)(typescript@5.8.2)(vue@3.5.13(typescript@5.8.2))
       '@tresjs/core':
         specifier: 4.3.3
         version: 4.3.3(three@0.174.0)(typescript@5.8.2)(vue@3.5.13(typescript@5.8.2))
@@ -510,8 +510,8 @@ packages:
     peerDependencies:
       eslint: '>=8.40.0'
 
-  '@tresjs/cientos@4.1.0':
-    resolution: {integrity: sha512-vhYQ6HbcuswLngyHgHj+L6FAgtedhmbH83+xQbPgJmEGAUqu+91PQeH+Hujgk/6U444hObq1FwUZWClrrjXatQ==}
+  '@tresjs/cientos@4.1.1':
+    resolution: {integrity: sha512-UrimJI9dwFp8EkqxnADf775YHY4/vI2xh4L74JnDVDEvm1LMHUsblpOliWZjB6Yf1NGU0JHiZsvNro3mdym9UQ==}
     peerDependencies:
       '@tresjs/core': '>=4.2.1'
       three: '>=0.133'
@@ -2451,10 +2451,10 @@ snapshots:
       - supports-color
       - typescript
 
-  '@tresjs/cientos@4.1.0(@tresjs/core@4.3.3(three@0.174.0)(typescript@5.8.2)(vue@3.5.13(typescript@5.8.2)))(three@0.174.0)(typescript@5.8.2)(vue@3.5.13(typescript@5.8.2))':
+  '@tresjs/cientos@4.1.1(@tresjs/core@4.3.3(three@0.174.0)(typescript@5.8.2)(vue@3.5.13(typescript@5.8.2)))(three@0.174.0)(typescript@5.8.2)(vue@3.5.13(typescript@5.8.2))':
     dependencies:
       '@tresjs/core': 4.3.3(three@0.174.0)(typescript@5.8.2)(vue@3.5.13(typescript@5.8.2))
-      '@vueuse/core': 12.4.0(typescript@5.8.2)
+      '@vueuse/core': 12.5.0(typescript@5.8.2)
       camera-controls: 2.9.0(three@0.174.0)
       stats-gl: 2.2.8
       stats.js: 0.17.0
