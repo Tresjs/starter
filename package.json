@@ -23,7 +23,7 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@tresjs/cientos": "4.1.1",
+    "@tresjs/cientos": "4.2.0",
     "@tresjs/core": "4.3.3",
     "@tresjs/leches": "^0.14.0",
     "three": "^0.174.0",
